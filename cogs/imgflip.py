@@ -27,9 +27,9 @@ class ImgFlip(commands.Cog):
     @commands.group(name='imgflip')
     async def imgflip(self, ctx):
         if not ctx.invoked_subcommand:
-            await ctx.send(embed=await macro.send("""``futurama``, ``notsimply``, ``aliens``, ``mocking``, 
+            await ctx.send("""``futurama``, ``notsimply``, ``aliens``, ``mocking``, 
             ``skeleton``, ``200iq``, ``condescending``, ``facepalm``, ``success``, ``squidward``, ``evil``, 
-            ``imagination``, ``society``"""))
+            ``imagination``, ``society``""")
 
     @imgflip.command(name='futurama')
     async def futurama(self, ctx, *args):
